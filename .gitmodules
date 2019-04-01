@@ -1,0 +1,12 @@
+[submodule "openvdb"]
+	path = openvdb
+	url = https://github.com/syoyo/openvdb
+[submodule "tbb-aarch64"]
+	path = tbb-aarch64
+	url = https://github.com/syoyo/tbb-aarch64
+[submodule "openexr-aarch64"]
+	path = openexr-aarch64
+	url = https://github.com/syoyo/openexr-aarch64
+[submodule "c-blosc-aarch64"]
+	path = c-blosc-aarch64
+	url = https://github.com/syoyo/c-blosc-aarch64
