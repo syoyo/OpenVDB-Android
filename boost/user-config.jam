@@ -1,0 +1,13 @@
+# ----------------------
+# Android configuration.
+# ----------------------
+
+# Set path to toolchain
+local AndroidToolchainRoot =
+/home/syoyo/local/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64
+;
+
+using clang
+: android
+: $(AndroidToolchainRoot)/bin/aarch64-linux-android28-clang++
+;
